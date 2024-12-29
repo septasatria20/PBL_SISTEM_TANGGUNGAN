@@ -1,0 +1,108 @@
+
+  /* General Body Styling */
+  body { 
+    background-color: #f8f9fa; /* Warna latar belakang yang lebih terang dan profesional */
+  }
+
+  /* Header Styling */
+  .header_section {
+    background-color:  #231a6f; /* Warna biru untuk header */
+    padding: 15px 0;
+    position: relative; /* Membuat header menjadi relatif untuk positioning */
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar-brand span {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #ddd; /* Hover effect */
+  }
+
+  .navbar-toggler {
+    border-color: transparent;
+  }
+
+  .navbar-toggler-icon {
+    background-color: #ffffff; /* Icon toggle berwarna putih */
+  }
+
+  /* Tombol "Back" dengan warna merah dan posisi di pojok kanan atas */
+  .btn-back {
+    background-color: #b51220; /* Warna merah untuk tombol back */
+    color: #ffffff;
+    border: none;
+    padding: 7px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    position: absolute;
+    top: 15px;  /* Jarak dari atas */
+    right: 10px; /* Jarak dari kanan */
+  }
+
+  .btn-back:hover {
+    background-color: #901414 /* Efek hover untuk tombol back */
+  }
+
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      background-color:  #231a6f; /* Navbar dropdown background */
+    }
+  }
+
+  /* CSS untuk menempatkan notifikasi di tengah layar */
+  .toast-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Menempatkan di tengah layar */
+    z-index: 1050; /* Memastikan toast muncul di atas elemen lainnya */
+  }
+
+  .toast {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    background-color: #d4edda; /* Warna latar belakang notifikasi berhasil */
+    color: #155724; /* Warna teks */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .toast .toast-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .toast-body {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .btn-close {
+    color: #155724;
+  }
+
+  .btn-close-white {
+    color: white;
+  }
+
+  .btn-close-white:hover {
+    color: black;
+  }

@@ -1,0 +1,197 @@
+/* Navbar Styling */
+.header_section {
+  width: 100%;
+}
+
+.navbar {
+  background-color: #231a6f; /* Warna gelap sesuai tema */
+  background-image: radial-gradient(
+    650px circle at 0% 0%,
+    #231a6f 75%,
+    transparent 100%
+  );
+  background-size: cover; /* Menutupi seluruh area */
+  background-repeat: no-repeat; /* Mencegah pengulangan */
+  border-bottom: 0px solid rgba(255, 255, 255, 0.2); /* Opsional garis bawah */
+  padding: 10px 20px; /* Menambahkan padding agar tampak lebih estetis */
+}
+
+/* Navbar Brand Text */
+.navbar-brand span {
+  font-weight: bold;
+  font-size: 24px;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar Toggler Button */
+.navbar-toggler {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+}
+
+/* Navbar Collapse Text */
+.navbar .nav-link {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #00bbf0;
+}
+
+/* Gambar dengan ukuran lebih kecil dan warna yang disesuaikan */
+.navbar-logo {
+  max-width: 400px; /* Atur ukuran gambar, misalnya 100px */
+  height: auto; /* Jaga agar gambar tidak terdistorsi */
+  margin-bottom: 20px; /* Jarak gambar dengan teks */
+  filter: brightness(0.9) contrast(1.1); /* Sesuaikan kecerahan dan kontras gambar */
+  border-radius: 5px; /* Memberikan sedikit kelengkungan pada gambar */
+  box-shadow: 0 px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan ringan */
+  display: block; /* Memastikan gambar rata tengah */
+  margin-left: auto; /* Rata kiri-kanan */
+  margin-right: auto; /* Rata kiri-kanan */
+}
+
+/* Efek untuk gambar agar menyatu dengan latar belakang */
+.background-radial-gradient .navbar-logo {
+  mix-blend-mode: multiply; /* Mencampur warna gambar dengan latar belakang */
+  opacity: 0.85; /* Mengatur transparansi gambar */
+}
+
+/* Background Radial Gradient */
+.background-radial-gradient {
+  background-color: #000a37; /* Warna gelap sesuai tema */
+  background-image: radial-gradient(
+    650px circle at 0% 0%,
+    #001634 1%,
+    transparent 60%
+  );
+}
+
+/* Glass Effect for Card */
+.bg-glass {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: saturate(200%) blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.form-outline {
+  position: relative;
+}
+
+/* Form Label Styling */
+.form-label {
+  color: #00bbf0; /* Sesuai dengan tema */
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* Input Styling */
+.form-control {
+  background-color: transparent;
+  border: 1px solid #00bbf0;
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  color: #ffffff;
+}
+
+/* Form Input Focus State */
+.form-control:focus {
+  border-color: #007fa4;
+  box-shadow: 0 0 5px #00bbf0;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #00bbf0;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #007fa4;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Pusatkan secara horizontal */
+  align-items: center;    /* Pusatkan secara vertikal */
+  height: 100vh;          /* Tinggi penuh untuk memusatkan di layar */
+}
+
+
+/* Social Media Button Styling */
+.btn-floating {
+  color: #00bbf0;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-floating:hover {
+  color: #007fa4;
+  transform: scale(1.2);
+}
+
+/* Card Styling */
+.card {
+  background: linear-gradient(to bottom, #130b58, #0f054c);
+  color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3);
+  padding: 1.5rem;
+}
+
+/* Text Styling */
+h1, p {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+/* Placeholder Styling */
+::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+}
+
+/* Checkbox Styling */
+.form-check-input {
+  background-color: #00bbf0;
+  border: none;
+}
+
+.form-check-input:checked {
+  background-color: #007fa4;
+  border-color: #007fa4;
+}
+
+/* Link Styling */
+a {
+  color: #00bbf0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #007fa4;
+}
+
+/* Footer Text */
+.footer-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 1rem;
+}
