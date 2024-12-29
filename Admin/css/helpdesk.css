@@ -1,0 +1,299 @@
+/* General Body Styling */
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    background-color: #000a37; /* Warna latar belakang gelap sesuai tema */
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+.custom_nav-container {
+    background-color: #231a6f; /* Warna gelap sesuai tema */
+    background-image: radial-gradient(
+      650px circle at 0% 0%,
+      #231a6f 75%,
+      transparent 100%
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    border-bottom: 0px solid rgba(255, 255, 255, 0.2); /* Opsional garis bawah */
+  }
+  
+  /* Navbar Brand Text */
+  .navbar-brand span {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Navbar Toggler Button */
+  .navbar-toggler {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+  }
+  
+  /* Navbar Collapse Text */
+  .navbar .nav-link {
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: color 0.3s;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #00bbf0;
+  }
+  
+  /* Button Styling */
+  .btn-danger {
+    background-color: #ff4757;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-danger:hover {
+    background-color: #e84118;
+  }
+  
+  .navbar .navbar-nav {
+    margin-left: auto;
+  }
+  
+
+/* Form Styling */
+.form-outline {
+    position: relative;
+}
+
+/* Form Label Styling */
+.form-label {
+    color: #00bbf0; /* Sesuai dengan tema */
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+/* Input Styling */
+.form-control {
+    background-color: transparent;
+    border: 1px solid #00bbf0;
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    color: #ffffff;
+}
+
+/* Form Input Focus State */
+.form-control:focus {
+    border-color: #007fa4;
+    box-shadow: 0 0 5px #00bbf0;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #00bbf0;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #007fa4;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card Styling */
+.card {
+    background: linear-gradient(to bottom, #130b58, #0f054c);
+    color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3);
+    padding: 1.5rem;
+}
+
+/* Text Styling */
+h1, p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+/* Footer Text */
+.footer-text {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Social Media Button Styling */
+.btn-floating {
+    color: #00bbf0;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-floating:hover {
+    color: #007fa4;
+    transform: scale(1.2);
+}
+
+/* Placeholder Styling */
+::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: italic;
+}
+
+/* Checkbox Styling */
+.form-check-input {
+    background-color: #00bbf0;
+    border: none;
+}
+
+.form-check-input:checked {
+    background-color: #007fa4;
+    border-color: #007fa4;
+}
+
+/* Link Styling */
+a {
+    color: #00bbf0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #007fa4;
+}
+
+/* Background Radial Gradient */
+.background-radial-gradient {
+    background-color: #000a37; /* Warna gelap sesuai tema */
+    background-image: radial-gradient(650px circle at 0% 0%, #001634 1%, transparent 60%);
+}
+
+/* Glass Effect for Card */
+.bg-glass {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: saturate(200%) blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Memperbesar box di sekitar tabel */
+/* Memperbesar box di sekitar tabel */
+.content-box {
+    padding: 10px; /* Menambah padding di dalam box */
+    margin: 20px auto;  /* Menambah margin di luar box dan menjadikan margin kiri dan kanan otomatis */
+    border-radius: 15px; /* Menambah kelengkungan pada sudut box */
+    box-shadow: 0 6px 40px rgba(0, 0, 0, 0.1); /* Menambah efek bayangan pada box */
+    background-color: rgba(255, 255, 255, 0.1); /* Warna latar belakang transparan */
+    backdrop-filter: blur(10px); /* Efek blur pada latar belakang */
+    max-width: 1200px; /* Menambah batas lebar maksimum box */
+    width: 100%; /* Agar box mengisi lebar kontainer */
+    margin-top: 5px;
+}
+
+.about_section {
+    display: flex;
+    justify-content: flex-start; /* Mengatur posisi konten ke atas */
+    align-items: flex-start; /* Menjaga konten tetap di atas */
+    padding-top: 0; /* Mengurangi padding agar lebih dekat ke atas */
+}
+
+
+
+/* Table Styling */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: transparent; /* Sesuai dengan tema */
+    color: #ffffff; /* Teks berwarna putih */
+}
+
+/* Table Header */
+table thead {
+    background-color: #231a6f; /* Warna latar belakang gelap sesuai tema */
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid #00bbf0; /* Garis bawah biru terang */
+}
+
+/* Table Header Cells */
+table th {
+    padding: 12px 15px;
+    font-size: 1rem;
+}
+
+/* Table Body */
+table tbody tr {
+    background-color: #130b58; /* Warna latar belakang baris */
+    border-bottom: 1px solid #3e3e3e;
+}
+
+/* Table Body Cells */
+table td {
+    padding: 12px 15px;
+    font-size: 0.9rem;
+}
+
+/* Status Badge */
+.status-pending {
+    background-color: #ffcc00; /* Warna kuning untuk Pending */
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.status-completed {
+    background-color: #00bbf0; /* Warna biru untuk Selesai */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.status-in-progress {
+    background-color: #ff7b00; /* Warna oranye untuk Progress */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+/* Button Styling */
+.btn-info {
+    background-color: #00bbf0;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-info:hover {
+    background-color: #007fa4;
+}

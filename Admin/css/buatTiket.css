@@ -1,0 +1,135 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff; /* Primary color */
+    text-transform: uppercase;
+}
+
+.navbar-brand:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: none;
+}
+
+.navbar .btn-secondary {
+    background-color: #6c757d; /* Secondary button */
+    border: none;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .btn-secondary:hover {
+    background-color: #5a6268; /* Darker gray on hover */
+}
+
+/* Main Content Styling */
+.container {
+    max-width: 900px;
+    margin: 40px auto; /* Center the content with spacing */
+    padding: 0 20px; /* Ensure responsive spacing */
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background: #fff;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form .form-label {
+    font-weight: bold;
+    color: #555;
+}
+
+form .form-control, 
+form .form-select {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 1rem;
+    color: #333;
+    width: 100%; /* Ensure full width */
+}
+
+form .form-control:focus, 
+form .form-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Blue glow */
+}
+
+form textarea {
+    resize: none; /* Prevent resizing */
+}
+
+/* Submit Button */
+form button[type="submit"] {
+    background-color: #007bff; /* Primary blue */
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+form button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue */
+    transform: translateY(-2px);
+}
+
+form button[type="submit"]:active {
+    background-color: #004085; /* Even darker blue */
+    transform: translateY(0);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+    }
+
+    form .form-control, 
+    form .form-select {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    form button[type="submit"] {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
